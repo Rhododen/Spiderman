@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header img {
+  height: 80px;
+}
+body {
+  /* height: 125vh; */
+  font-family: 'Merriweather', serif;
+
+
+  color: rgb(198, 198, 235);
+}
+main {
+  background-image: url(background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  /* background-color: black; */
+  color: white;
+  height: 80px;
+}
+header * {
+  display: inline;
+}
+.heading {
+  margin: 20px 400px;
+}
+.spidey-descrip {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.quote-flex {
+  display: flex;
+  justify-content: center;
+
+}
+.quote-flex  img {
+  max-height: 400px;
+  max-width: 300px;
+  border-radius: 50px;
+}
+.quote {
+  margin: auto 50px;
+  width: 400px;
+}
+.spiderman-img {
+  max-width: 100%;
+}
+
+footer {
+  padding-top: 70px;
+  padding-bottom: 20px;
+  padding-left: auto;
+  padding-right: auto;
+  border-style: dotted;
+  border-width: 2px;
+  border-color: red;
+}
